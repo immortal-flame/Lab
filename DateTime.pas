@@ -1,7 +1,10 @@
 ﻿##
 begin
 var year:= readinteger;
-if year mod 400 = 0 and year mod 100 = 1 then
-  print('Високосный')
-else print('Не високосный');
+var x := 60;
+if year mod 400 = 0 then
+    println('Високосный')
+else println('Не високосный');
+println('Секунд в минуте -',x)
 end;
+
