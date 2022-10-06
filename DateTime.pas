@@ -14,5 +14,11 @@ println(day);
 println('Дней в году - 365');
 s := abs((x-y))*365;
 println(s,'Дней в годах');
-print(hour * 3600,('- sec in hour'));
+println(hour * 3600,('- sec in hour'));
+if year = 1992 then
+  println(year,'был апокалипсис');
+if year = 2005 then
+  println(year,'был апокалипсис');
+if year = 2011 then
+  println(year,'был апокалипсис');
 end;
